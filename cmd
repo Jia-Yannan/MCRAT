@@ -28,7 +28,7 @@ nohup python train_trades.py --mcrAt 1 --mcrBeta 0.02 --dataSet CIFAR10 --beta 5
 
 nohup python train_trades.py --dataSet CIFAR100 --beta 5 --epsilon 0.0314 --num-steps 10 --step-size 0.00784 --batch-size 128 --weight-decay 0.0002 --lr 0.1 --epochs 100 --fileName CIFAR100_tds_ini > CIFAR100_tds_ini.log &
 
-nohup python train_trades.py --mcrAt 1 --mcrBeta 0.02 --dataSet CIFAR100 --beta 5 --epsilon 0.0314 --num-steps 10 --step-size 0.00784 --batch-size 128 --weight-decay 0.0002 --lr 0.1 --epochs 100 --fileName CIFAR100_tds_pro > CIFAR100_tds_pro.log &
+nohup python train_trades.py --mcrAt 1 --mcrBeta 0.01 --dataSet CIFAR100 --beta 5 --epsilon 0.0314 --num-steps 10 --step-size 0.00784 --batch-size 128 --weight-decay 0.0002 --lr 0.1 --epochs 100 --fileName CIFAR100_tds_pro > CIFAR100_tds_pro.log &
 ############################
 # The command to run  MART #
 ############################
